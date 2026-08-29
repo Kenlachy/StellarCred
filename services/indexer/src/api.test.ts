@@ -32,6 +32,7 @@ function makeConfig(sqlitePath: string): Config {
     pollIntervalMs: 6000,
     startLedger: 0,
     port: 3001,
+    finalityLag: 6,
   };
 }
 
